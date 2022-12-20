@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Hele navigations bjælken */
+
+.logo{
+    position:absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 2;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-color: rgb(90, 90, 90);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    text-align: center;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #114465;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right:100px;
+    font-size: 36px;
+    margin-right: 100px;
+  }
+
+  
+  .openbtn {
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    z-index: 2;
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    padding-right: 10px 15px;
+    border: none;
+    font-size: 36px;
+    margin-right: 1px;
+
+  }
+  
+  .openbtn:hover {
+    color:#114465;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+/* Hele navigations bjælken slut */
+  
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    background-color: #d9d3ce;
+    color:#114465;
+}
+
+
+/* topbanner start */
+
+.container {
+    margin-top: -3%;
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 1;
+  }
+
+  #topbanner{
+    filter: brightness(60%);
+  }
+
+
+
+  .centered {
+    font-size: 72px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+/* topbanner slut */
+/* introtekst start */
+.menuheader{
+    font-size: 48px;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+.menutekst{
+    font-size: 24px;
+    text-align: left;
+    width: 50%;
+    margin-left: 28%;
+    margin-top: 10px;
+}
+
+/* introtekst slut */
+/* inspiration billeder start */
+.pic1, .pic2, .pic3, .pic4{
+    width: 20%;
+    height: 800px;
+    margin: 20px;
+    margin-top: 60px;
+}
+/* inspiration billeder slut */
+/*madmenu start*/
+
+.menudropdown{
+    margin-top: 36px;
+    font-size: 30px;
+
+}
+
+.menudropdown3{
+    margin-top: 36px;
+    font-size: 20px;
+
+}
+#menudropdown4{
+    padding-bottom: 100px;
+    margin-left: 40px;
+}
+
+.vin{
+    font-style: italic;
+    color: rgb(68, 67, 67);
+}
+
+.drikkevarer{
+    margin-top: 60px;
+}
+
+
+.foodndrinks{
+    padding-top: 2px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+/*madmenu slut*/
+
+/*vin start*/
+
+.tab-titles{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    margin-left: 40%;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #B1B1B1;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+    width: 50%;
+}
+
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tab-contents ul li span{
+    color: #B1B1B1;
+    font-size: 14px;
+}
+
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.active-tab{
+    display: block;
+}
+
+/*vin slut*/
