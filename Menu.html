@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menukort.css">
+    <title>Menukort</title>
+</head>
+<header>
+<!--sidemenubar start-->
+<div class="logo">
+    <a href="index.html"><img class= "logopic" src="Pic/LogoBanner.png" alt="" width="150em" height="150em"></a>
+</div>
+
+
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="Menu.html">Menukort</a>
+    <a href="Booking.html">Booking</a>
+    <a href="Selskab.html">Selskab</a>
+    <a href="https://app.lifepeaks.dk/gift-card/create?company_id=3#step_1" target="_blank">Gavekort</a>
+    <a href="Kingindenfor.html">Kig indenfor</a>
+      <a href="Kontakt.html">Kontakt</a>
+  </div>
+  
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">☰</button>  
+  </div>
+</header>
+<!--sidemenubar slut-->
+<!--billeder banner start-->
+<div class="container">
+    <img src="Pic/MenukortBanner.jpg" alt="Snow" id="topbanner" style="width:100%;">
+    <div class="centered">Menu</div>
+</div>
+<!--billeder banner slut-->
+<!--intro tekst start-->
+<div class="wrapper">
+    <h2 class="menuheader">Velkommen til Substans</h2>
+    <p class="menutekst">Som gæst på Substans vil du blive præsenteret for en menu bestående af et varierende antal serveringer, alt afhængig af sæsonen og de råvarer, vi har til rådighed i køkkenet.<br><br>
+        Typisk vil der være flere retter i forårs- og sommermånederne, hvor alting spirer frem og vokser vildt, og lidt færre men en smule tungere retter i efterårs- og vintermånederne.<br><br>
+        Det styrende princip i sammensætningen af vores spisemenuer på tværs af årstidernes skiften er en nysgerrig og åbensindet tilgang til det gode måltid.</p>
+</div>
+<!--intro tekst slut-->
+<!--inspiration billeder start-->
+<div class="midpic">
+    <img src="Pic/image 3.png" class="pic1" alt="">
+    <img src="Pic/Rectangle 2.png" class="pic2" alt="">
+    <img src="Pic/image 5.png" class="pic3" alt="">
+    <img src="Pic/image 6.png" class="pic4" alt="">
+</div>
+<!--inspiration billeder slut-->
+<!--Frokostmenu start-->
+<details class="menudropdown"><summary> Frokost</summary>
+    <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('Lillemenu')">Lille Menu</p>
+        <p class="tab-links" onclick="opentab('Stormenu')">Stor Menu</p>
+        <p class="tab-links" onclick="opentab('Drikkevarer')">Drikkevarer</p>
+    </div>
+    <div class="tab-contents active-tab" id="Lillemenu">
+        <ul class="foodndrinks">
+            <h3>Lille Frokost 700,-</h3>
+            <h3>Inkl. vinmenu 1.000,-</h3>
+            <p>BOUILLON ~ SVAMPE ~ GRAN</p>
+            <p>ØSTERS ~ SAKE ~ FENNIKEL</p>
+            <p>PIGHVAR ~ SELLERI ~ TOMAT</p>
+            <p>BLÆKSPRUTTE ~ PONZU ~ ÆGGEBLOMME</p>
+            <p>JOMFRUHUMMER ~ HINDBÆR ~ HYBENROSE</p>
+            <p class="vin">2020 ‘Hauts de Husseau’. Taille aux Loups</p>
+            <p>BEDER ~ KAVIAR ~ HASSELNØD</p>
+            <p class="vin">2018 ‘Bramaterra’ Odilio Antoniotti</p>
+            <p>GRÅAND ~ KÅL ~ HYLDEBÆR</p>
+            <p>SURDEJ ~ GRÆSKARKERNE ~ HONNING</p>
+            <p class="vin">2019 ‘Saussignac Autrefois’. Couleurs d’Aquitaine</p>
+            <p>PÆRE ~ YUZU ~ FLØDE</p>
+            <p>KAFFE ~ CREME FRAICHE</p>
+            <p>CROISSANT ~ LAVENDEL</p>
+        </ul>
+    </div>
+    <div class="tab-contents" id="Stormenu">
+        <ul class="foodndrinks">
+            <h3>Stor Frokost 1000,-</h3>
+            <h3>Inkl. vinmenu 1.500,-</h3>
+            <p>BOUILLON ~ SVAMPE ~ GRAN</p>
+            <p>ØSTERS ~ SAKE ~ FENNIKEL</p>
+            <p>PIGHVAR ~ SELLERI ~ TOMAT</p>
+            <p>BLÆKSPRUTTE ~ PONZU ~ ÆGGEBLOMME</p>
+            <p>JOMFRUHUMMER ~ HINDBÆR ~ HYBENROSE</p>
+            <p class="vin">2020 ‘Hauts de Husseau’. Taille aux Loups</p>
+            <p>BEDER ~ KAVIAR ~ HASSELNØD</p>
+            <p class="vin">2020 ‘Sauvignon Blanc’ Von Winning</p>
+            TORSK ~ VALLE ~ HASSELNØD
+            <p class="vin">2018 ‘Tremoulette’ Domaine Carlines </p>
+            <p>HUMMER ~ GRÆSKAR ~ INGEFÆR</p>
+            <p class="vin">2018 ‘Bramaterra’ Odilio Antoniotti</p>
+            <p>GRÅAND ~ KÅL ~ HYLDEBÆR</p>
+            <p>SURDEJ ~ GRÆSKARKERNE ~ HONNING</p>
+            <p class="vin">2019 ‘Saussignac Autrefois’. Couleurs d’Aquitaine</p>
+            <p>PÆRE ~ YUZU ~ FLØDE</p>
+            <p>KAFFE ~ CREME FRAICHE</p>
+            <p>CROISSANT ~ LAVENDEL</p>
+        </ul>
+    </div>
+    <div class="tab-contents" id="Drikkevarer">
+        <ul class="foodndrinks">
+            <h3>Drikkevarer</h3>
+            <p>Saft 75,-</p>
+            <p>Øl 75,-</p>
+            <p>Champagne 175,-</p>
+            <p>Glas vin fra 100,-</p>
+            <p>Kaffe/te 50,-</p>
+            <p>Avec fra 100,-</p>
+        </ul>
+    </div>
+
+</details>
+
+<!--Frokostmenu slut-->
+<!--Aftensmenu start-->
+<details><summary class="menudropdown">Aftensmenu</summary>
+    <div class="foodndrinks">
+        <h3> Spisemenu 1600.-</h3>
+        <p> BOUILLON ~ SVAMPE ~ GRAN <br>
+        ØSTERS ~ SAKE ~ FENNIKEL <br>
+        PIGHVAR ~ SELLERI ~TOMAT <br> 
+        BLÆKSPRUTTE ~ PONZU ~ ÆGGEBLOMME <br>
+        JOMFRUHUMMER ~ HINDBÆR ~ HYBENROSE <br>
+        <p class="vin">2020 ‘Hauts de Husseau’. Taille aux Loups</p>
+        BEDER ~ KAVIAR ~ HASSELNØD <br> 
+        <p class="vin">2020 ‘Sauvignon Blanc’ Von Winning</p>
+        TORSK ~ VALLE ~ TRØFFEL
+        <p class="vin">‘Reedwood Creek’. West Coast IPA. Alefarm Brewing</p> 
+        SURDEJ ~ GRÆSKARKERNE ~ HONNING <br>
+        <p class="vin">2018 ‘Tremoulette’ Carlines</p>
+        HUMMER ~ GRÆSKAR ~ INGEFÆR<br>
+        <p class="vin">2019 ‘GAMAY’. Les Jardins de Theseiis</p>
+        RØDBEDE ~ MARV ~ KIRSEBÆRE
+        <p class="vin">2018 ‘Bramaterra’ Odilio Antoniotti</p>
+        GRÅAND ~ KÅL ~ HYLDEBÆR <br>
+        <p class="vin">2019 ‘Saussignac Autrefois’. Couleurs d’Aquitaine</p>
+        FÅREMÆLK ~ BLÅBÆR ~ HONNING<br>
+        PÆRE ~ YUZU ~ FLØDE<br>
+        KAFFE ~ CREME FRAICHE <br>
+        CROISSANT ~ LAVENDEL</p>
+        <h2 class="drikkevarer"> Drikkevarer </h2>
+        <p>Drikkemenu 1100.- <br>
+        Saftmenu 600.- <br>
+        Champagne 175.- <br>
+        Glas vin fra 100.- <br>
+        Avec fra 100.- <br>
+        </p>
+    </div>
+</details>
+<!--Aftensmenu slut-->
+<!--vinkort start-->
+<details class="menudropdown"><summary> Vinkort</summary>
+    <details class="menudropdown3"><summary> Hvidvin</summary>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Germany')">Tyskland</p>
+            <p class="tab-links" onclick="opentab('Austria')">Østrig</p>
+            <p class="tab-links" onclick="opentab('France')">Frankrig</p>
+            <p class="tab-links" onclick="opentab('Italy')">Italien</p>
+            <p class="tab-links" onclick="opentab('Spain')">Spanien</p>
+            </div>
+    
+    
+    
+        <div class="tab-contents active-tab" id="Germany" >
+            <ul class="foodndrinks">
+                <h3>Nahe</h3>
+                <p>‘Weissburgunder’ 2019. Piri Naturel, Christine Pieroth. Deutscher Landwein. 750,-</p>
+                <p>‘Weissburgunder’ 2020. Piri Naturel, Christine Pieroth. Deutscher Landwein. 750,-</p>
+                <p>‘Mathilda’ 2020. Piri Naturel, Christine Pieroth. Deutscher Landwein. 750</p>
+                <p> ‘Burg Layer Schlossberg’. 2020. Riesling 1G. Diel. 800,-</p>
+                <h3> Mosel</h3>
+                <p> ’Nostel***’ 2019. Riesling Trocken. Martin Müllen. 950,-</p>
+                <p> ’Trarbacher Hühnerberg’ 2020. Riesling Spätlese Trocken. Martin Müllen. 900,-</p>
+                <p> ’Kröver Letterlay’ 2018. Riesling Spätlese. Feinherb. Martin Müllen. 600,-</p>
+                <p> ‘Stolzenberg’ 2020. Riesling GG. Heymann-Lövenstein. 850,-</p>
+                <p> ‘Uhlen Roth Lay’ 2019. Heymann-Lövenstein. 1.000,-</p>
+                <p> ‘No.9 KERN’ 2020. Riesling, Saar, Peter Lauer. 650,-</p>
+                <h3> Franken</h3>
+                <p> ‘Escherndorf am Lumpen’ 2019Riesling GG, Rainer Sauer. 1.000,-</p>
+                <h3> Rheinhessen</h3>
+                <p>‘Scheurebe’ 2019. Brüder Dr. Becker, Hans Müller & Lotte Pfeffer-Müller. Deutscher Landwein. 650,-</p>
+                <p> ‘Reserve’ 2016. Riesling. BattenfeldSpanier. 700,-</p>
+                <h3> Pfalz</h3>
+                <p> Himmelreich’ 2016. Riesling Herxheimer. Weingut Krebs. 600,-</p>
+                <p> ‘Haardter Herzog’ 2020. Riesling 1G. Von Winning. 800,-</p>
+                <p> ‘Kirschenstück’ 2020. Riesling GG. Von Winning. 2.200,-</p>
+                <p> ‘Sauvignon Blanc II’ 2020. Sauvignon Blanc. Von Winning. 600,-</p>
+            </ul>
+        </div>
+        <div class="tab-contents" id="Austria">
+            <ul class="foodndrinks">
+                <h3>Burgenland</h3>
+                <p>Elektra’ 2021. Grüner Veltliner. Nittnaus. 600,-</p>
+            </ul>
+        </div>
+        <div class="tab-contents" id="France">
+            <ul class="foodndrinks">
+                <h3>Alsace</h3>
+                <p>‘Osperling’ 2018. Domaine Gross, Rémy & Vincent Gross. Alsace. 650,-</p>
+                <h3>Loire</h3>
+                <h4>Anjou-Saumur</h4>
+                <p>‘Volat’ 2016. Dominique Dufour. Vin de France. 900,-</p>
+                <p>‘Experto…R’ 2015. Les Aussigouins, Dominique Dufour. Vin de France. 1.000,-</p>
+                <p>‘Experto…R’ 2017. Les Aussigouins, Dominique Dufour. Vin de France. 1.000,-</p>
+                <p>‘La Lune’ 2014. La Ferme de la Sansonnière, Mark Angeli, Vin de France. 2.000,-</p>
+                <p>Anjou Blanc’ 2016. Thibaud Boudignon, Anjou Blanc. 850,-</p>
+                <p>‘Les Caillardiéres’ 2018. Savenniéres. Domaine du Closel. 650,-</p>
+                <p>‘Nova’ 2020. 218 jours en infusion. Domaine Mosse. 900,-</p>
+                <p>‘Initial Carbo’ 2020. Vin de France. Domaine Mosse. 800,-</p>
+                <h4>Touraine</h4>
+                <p>‘Le Blanc de la La Fosse Vineuse’ 2009. Thierry Hesnault. Vin de France. 1.250,-</p>
+                <p>‘Le Blanc de la La Fosse Vineuse’ 2015. Thierry Hesnault. Vin de France. 1.000,-</p>
+                <p>‘MMXVI’ 2016. La Grapperie, Renaud Guettier. Vin de France. 750,-</p>
+                <p>‘Romorantin’ 2018. Les Jardins de Theseeis, Anouk Lavoie-Lamoureux & Paul-André Risse. Vin de France. 750,-</p>
+                <p>‘Sauvignon Blanc’ 2019. Les Jardins de Theseiis, Anouk L.L & PaulAndré R. Vin de France. 750,-</p>
+                <h3>Bourgogne</h3>
+                <h4>Côte de Nuits</h4>
+                <p>’Monts de Boncourt’ 2017. Cote de Nuits-Villages. Domaine de Bellene. 1.200</p>
+                <h4>Côte de Beaune</h4>
+                <p>‘Bourgogne Blanc’ 2020. Domaine Fanny Sabre. 900,-</p>
+                <p>‘Savigny les Beaune’ 2019. Domaine Fanny Sabre. 1.150,-</p>
+                <p>‘Chorey les Baune’ 2020. Domaine Fanny Sabre. 1.000,-</p>
+                <p>‘Pernand-Vergelesses’. 2020. Domaine Fanny Sabre. 1.200,-</p>
+                <p>’Bourgogne Aligoté’ 2019. Chapuis & Chapuis. Bourgogne Aligoté. 750,-</p>
+                <p>‘Hautes-Côtes de Beaune Blanc’ 2019. Chapuis & Chapuis. HautesCôtes de Beaune. 750,-</p>
+                <p>‘En Dressolles’ 2020. Mersault. Domaine Huber-Verdereau. 1.600,-</p>
+                <p>’Les Levrons’ 2020. Puligny- Montrachet. Dom. Huber-Verdeau. 1.700,-</p>
+                <p>‘Chassagne Montrachet Blanc’ 2020. Dom. Coffinet-Duvernay. 1.600,-</p>
+                <p>’Les Caillerets’ Chassagne Montrachet 1. Cru. Dom. Coffinet-Duvernay. 2.500,-</p>
+                <p>‘Batard Montrachet’ 2020. Grand Cru. Dom. Coffinet-Duvernay. 6.000,-</p>
+                <p>‘Vieilles Vignes’ 2020. Mersault. Buisson-Charles. 1.600,-</p>
+                <p>‘Puligny-Montrachet’ 2020. Jerome Castagnier. 1.800,-</p>
+                <p>‘Le Cailleret’ 2019. Puligny-Montrachet. Premier Cru. Jerome Castagnier. 3.000,-</p>
+                <p>‘Dessus le Gollardes’ 2019. Savigny-lés-Beaune. Dom. Pierre Guillemot. 700,-</p>
+                <h4>Mâconnais</h4>
+                <p>‘Aragonite’ 2020. Mâcon Cruzille. Julien Guillot. 1.000,-</p>
+                <h3>Jura</h3>
+                <h4>Arbois</h4>
+                <p>‘Les Crêts’ 2015. Michel Gahier. Arbois. 900,-</p>
+                <p>‘Les Nouvelles’ 2016. Domaine Philippe Chatillon. Arbois. 1.000,-</p>
+                <p>‘Le Sage Vagnin’ 2017. Domaine Philippe Chatillon. Arbois. 1.000,-</p>
+                <p>‘Melon á Queue Rouge’ 2018. Domaine Philippe Chatillon. Arbois. 1.000,-</p>
+                <p>‘Cuvée Du P’tit Prince’ 2020. Julien Crinquand. Arbois. 900,-</p>
+                <h4>Côtes du Jura</h4>
+                <p>‘Longefin’ 2019. Didier Grappe. Vin de France. 800,-</p>
+                <p>‘Verron’ 2014. Peggy & Jean Pascal Buronfosse. Côtes du Jura. 1.000,-</p>
+                <p>‘Cuvée Florine’ 2014. Anne & Jean-François Ganevat. Côtes du Jura. 1.300,-</p>
+                <p>‘Cuvée Florine’ 2016. Anne & Jean-François Ganevat. Côtes du Jura. 1.200,-</p>
+                <p>‘Montferrand’ 2016. Anne & Jean-François Ganevat. Côtes du Jura. 1.250,-</p>
+                <p>‘Champs Poids’ 2016. Anne & Jean-François Ganevat. Côtes du Jura. 1.250,-</p>
+                <p>‘Assemblage’ 2007. Anne & Jean-François Ganevat. Côtes du Jura. 1.700,-</p>
+                <p>‘Assemblage’ 2009. Anne & Jean-François Ganevat. Côtes du Jura. 1.650,-</p>
+                <p>‘Assemblage’ 2011. Anne & Jean-François Ganevat. Côtes du Jura. 1.500,-</p>
+                <p>‘Savignan’ 2008. Anne & Jean-François Ganevat. Côtes du Jura. 1.700,-</p>
+                <h3>Savoie</h3>
+                <p>‘Silice’ 2018. Maison des Ardoisières, Brice Omont. Vin des Allobroges. 650,-</p>
+                <p>Argile blanc’ 2018. Maison des Ardoisières, Brice Omont. Vin des Allobroges. 850,-</p>
+                <h3>Languedoc-Roussillon</h3>
+                <h4>Hérault</h4>
+                <p>‘Blanc’ 2015. Domaine Leon Barral, Didier Barral. Vin de France. 1.150,-</p>
+                <h4>Pyrénées-Orientales</h4>
+                <p>‘Coume de l’Olla’ 2015. Domaine Matassa, Tom Lubbe. Vin de France. 900,-</p>
+                <p>‘Blanc’ 2013. Domaine Matassa, Tom Lubbe. Côtes Catalanes. 1.200,-</p>
+                <p>‘Blanc’ 2014. Domaine Matassa, Tom Lubbe. Vin de France. 1.200,-</p>
+                <p>Cuvée Alexandria’ 2014. Domaine Matassa, Tom Lubbe. Vin de France. 1.200,-</p>
+                <h3>Bordeaux</h3>
+                <h4>Graves</h4>
+                <p>‘La Clarté de Haut-Brion’ 2010. Château Haut-Brion, Pessac-Léognan 3.300,-</p>
+            </ul>
+        </div>
+        <div class="tab-contents" id="Italy">
+            <ul class="foodndrinks">
+                <h3>Piemonte</h3>
+                <h4>Alba</h4>
+                <p>‘Elektra’ 2018. Valdisole, Giuseppe Amato & Kyriaki Kalimeri. Piemonte. Vino Bianco. 1.000,-</p>
+                <p>‘Elektra’ 2019. Valdisole, Giuseppe Amato & Kyriaki Kalimeri. Piemonte. Vino Bianco. 1.000,-</p>
+                <h4>Calabrien</h4>
+                <p>‘Forse sono fiori. Creta Paglia, Antonello Canonico. Piemonte. Vino Bianco. 850,-</p>
+            </ul>
+        </div>
+        <div class="tab-contents" id="Spain">
+            <ul class="foodndrinks">
+                <h3>Penedès</h3>
+                <p>‘La Serra’ 2019. Celler La Salada, Antoni Carbó. Vino Blanco. 650,-</p>
+                <h3>Rias Baxias</h3>
+                <p>‘Balado’ 2020. Albariño. Zarate. 1.000,-</p>
+                <p>‘Tras da Vina’. 2020. Albariño. Zarate. 1.000,-</p>
+            </ul>
+        </div>
+    </details>
+    
+    <details class="menudropdown3"><summary> Rødvin</summary>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Germanyrw')">Tyskland</p>
+            <p class="tab-links" onclick="opentab('Francerw')">Frankrig</p>
+            <p class="tab-links" onclick="opentab('Italyrw')">Italien</p>
+            <p class="tab-links" onclick="opentab('slovakiarw')">Slovakiet</p>
+            </div>
+    
+    
+    
+            <div class="tab-contents active-tab" id="Germanyrw">
+                <ul>
+                    <h3>Rheinhessen</h3>
+                    <li>‘Pinot Noir’ 2017. Max Dexheimer. 600,-</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Francerw">
+                <ul class="foodndrinks">
+                    <h3>Alsace</h3>
+                    <p>‘Mittelbourg Pinot Noir’ 2018. Les Vins du Mardi. Alsace. 1.000,-</p>
+                    <h3>Champagne</h3>
+                    <h4>Coteaux Champenois</h4>
+                    <p>‘Ambonnay Rouge – Cuvée des Grands Côtes’ 2006. Egly-Ouriet, Coteaux Champenois. 2.000,-</p>
+                    <h3>Loire</h3>
+                    <h4>Touraine</h4>
+                    <p>‘La Centenaire du Vauperroux’ 2017. Thierry Hesnault. Vin de Table. 1.000,-</p>
+                    <h4>Anjou-Saumur</h4>
+                    <p>‘Saumur Champigny’ 2011. Clos Rougeard, Saumur Champigny. 3.000,-</p>
+                    <p>‘Cristal Closed’ 2015. Côme Isambert. Saumur Champigny. 1.000,-</p>
+                    <p>‘Little Robin’ 2017/2019. Côme Isambert. Saumur Champigny. 750,-</p>
+                    <p>‘Érogène’ 2018. Domaine de la Petite Soeur, Adrien de Mello. Vin de France. 750,-</p>
+                    <p>‘Groll’n Roll’ 2018. Les Vignes de Babass. Vin de France. 650,-</p>
+                    <h3>Bourgogne</h3>
+                    <h4>Côte de Nuits</h4>
+                    <p>‘Côtes de Nuits Villages’ 2020. AMI, Paul Perarnau & Willy Roulendes. 1.000,-</p>
+                    <p>‘Les Graviers’ 2019. Bourgogne rouge. Jean-Michel Guillon. 1450,-</p>
+                    <p>‘Clos Vougeot’ 2020. Grand Cru. David Duband. 4.500,-</p>
+                    <p>‘Côte de Nuit-Villages’ 2020. David Duband. 800,-</p>
+                    <p>‘Nuit-Saint-Georges’ 2020. David Duband. 1.350,-</p>
+                    <li>‘Clos Sorbé’ 2020. Premier Cru. Morey-Saint-Denis. David Duband. 2.000,-</li>
+                    <p>‘Les Louves’ 2020. Premier Cru. Morey-Saint-Denis. Buisson-Chales. 2.500,-</p>
+                    <h4>Côte de Beaune</h4>
+                    <p>‘Clos des Renardes’ 2019. Domaine Fanny Sabre. Beaune. 1.000,-</p>
+                    <p>‘Volnay Les Mitans’. 2017. Premier Cru. Domaine Fanny Sabre. 2.000,-</p>
+                    <p>‘Monthélie Les Sous Roches’ 2019. Domaine Fanny Sabre. 1.200,-</p>
+                    <p>‘Hautes-Côtes de Beaune Rouge’ 2019. Chapuis & Chapuis. HautesCôtes de Beaune Rouge. 750,-</p>
+                    <p>‘La Croix Buteix’ 2019. Irancy. Vini Viti Vinci. 1000,-</p>
+                    <p>‘En Mareau’ 2020. Pommard. Buisson-Charles. 1.600,-</p>
+                    <p>‘Volnay-Fremiets’ 2020. Volnay. Premier Cru. Buisson-Charles. 1.600,-</p>
+                    <p>‘Les Duresses’ 2020. Monthélie. Premier Cru. Douhairet-Porcheret 1.250,-</p>
+                    <p>‘En Champans’ 2020. Volnay. Premier Cru. Douhairet-Porcheret. 2.000,-</p>
+                    <p>‘Les Chanlins’ 2019. Pommard. Premier Cru. Douhairet-Porcheret. 1.500,-</p>
+                    <p>‘Gevrey Chambertin’ 2014. Domaine Jerome Castagnier. 1.350,-</p>
+                    <h4>Côtes Chalonnaise</h4>
+                    <p>‘La Tête dans les Nuages’ 2019. AMI, Paul Perarnau & Willy Roulendes. Bourgogne Rouge. 850,-</p>
+                    <p>‘La Tête dans les Nuages’ 2020. AMI, Paul Perarnau & Willy Roulendes. Bourgogne Rouge. 850,-</p>
+                    <h4>Mâconnais</h4>
+                    <p>‘Les Crays’ 2017. Clos des Vignes du Maynes, Julien Guillot. Bourgogne Rouge. 1.000,-</p>
+                    <p>‘Les Crays’ 2019. Clos des Vignes du Maynes, Julien Guillot. Bourgogne Rouge. 1.000,-</p>
+                    <p>‘Cuvée 910’ 2018 MAGNUM. Clos des Vignes du Maynes, Julien Guillot. Mâcon. 2.000,-</p>
+                    <h3>Jura</h3>
+                    <h4>Arbois</h4>
+                    <p>‘Commendatore’ 2015. Domaine de l’Octavin, Alice Bouvot. Vin de France. 2.000,-</p>
+                    <h4>Côtes du Jura</h4>
+                    <p>‘Cuvée de l’Enfant Terrible’ 2016. Anne & Jean-François Ganevat. Côtes du Jura. 1.200,-</p>
+                    <p>‘J’y aime’ 2015. Anne & Jean-François Ganevat. Vin de France. 850,-</p>
+                    <p>‘Poulprix’ 2016. Anne & Jean-François Ganevat. Vin de France. 750,-</p>
+                    <p>‘T’chez qui?’ 2017. Anne & Jean-François Ganevat. Vin de France. 850,-</p>
+                    <p>‘P’tit Prince’ 2020. Julien Crinquand. 800,-</p>
+                    <p>‘Argile Rouge’ 2018. Maison des Ardoisières, Brice Omont. Vin des Allobroges. 750,-</p>
+                    <h3>Beaujolais</h3>
+                    <h4>Fleurie</h4>
+                    <p>‘Le Printemps’ 2017. Yvon Métras. Fleurie. 1.000,-</p>
+                    <h4>Morgon</h4>
+                    <p>‘Côte du Py’ 2016 MAGNUM. Agnès & Jean Foillard. Morgon. 2.000,-</p>
+                    <h4>Brouilly</h4>
+                    <p>‘Côtes de Brouilly’ 2019. Domaine Les Sauvageons, Romuald Valot. Côtes de Brouilly. 750,-</p>
+                    <p>‘Brouilly’ 2020. Alex Foillard 600,-</p>
+                    <p>‘Côte de Brouilly’ 2020. Alex Foillard 600,-</p>
+                    <h4>Beaujolais</h4>
+                    <p>‘Une Tranche Nouvelle’ 2019. Philippe Jambon & Gérard Belaid. Vin de France. 750,-</p>
+                    <p>‘Une Tranche Nouvelle’ 2019 MAGNUM. Philippe Jambon & Gérard Belaid. Vin de France. 1.500,-</p>
+                    <p>‘Madame Germaine’ 2016. Yvon Métras. Beaujolais. 1.000,-</p>
+                    <p>‘Beaujolais’ 2016. Yvon Métras. Beaujolais. 1.000,-</p>
+                    <p>‘Beaujolais’ 2017. Yvon Métras. Beaujolais. 1.000,-</p>
+                    <p>‘La Fille’ 2018. Sébastien Morin. Vin de France. 850,-</p>
+                    <p>‘Amalgame’ 2018. Sébastien Morin. Vin de France. Vin de France. 850,-</p>
+                    <p>‘Alter Ego’ 2018. Sébastien Morin. Vin de France. Vin de France. 850,-</p>
+                    <h3>Rhône</h3>
+                    <h4>Côte-Rotie</h4>
+                    <p>‘La Mouline’ 1997. Château d’Ampuis, Etienne Guigal. Côte-Rotie. 3.900,-</p>
+                    <h4>Saint-Joseph</h4>
+                    <p>‘Saint-Joseph’ 2013. Domaine Dard & Ribo, François Ribo & René-Jean Dard. SaintJoseph. 1.000,-</p>
+                    <p>‘Saint-Joseph’ 2016. Domaine Dard & Ribo, François Ribo & René-Jean Dard. SaintJoseph. 1.000,-</p>
+                    <p>‘Saint-Joseph’ 2017. Domaine Dard & Ribo, François Ribo & René-Jean Dard. SaintJoseph. 1.000,-</p>
+                    <h4>Hermitage</h4>
+                    <p>‘Hermitage’ 2013. Domaine Dard & Ribo, François Ribo & René-Jean Dard. Hermitage. 1.500,-</p>
+                    <p>‘Hermitage 2014. Domaine Dard & Ribo, François Ribo & René-Jean Dard. Hermitage. 1.500,-</p>
+                    <h4>Crozes-Hermitage</h4>
+                    <p>‘Crozes-Hermitage’ 2014. Domaine Dard & Ribo, François Ribo & René-Jean Dard. Crozes-Hermitage. 1.000</p>
+                    <p>‘Crozes-Hermitage’ 2015. Domaine Dard & Ribo, François Ribo & René-Jean Dard. Crozes-Hermitage. 1.000</p>
+                    <p>‘C’est le printemps’ 2014. Domaine Dard & Ribo, François Ribo & René-Jean Dard. Crozes-Hermitage. 1.000,-</p>
+                    <p>‘C’est le printemps’ 2015. Domaine Dard & Ribo, François Ribo & René-Jean Dard. Crozes-Hermitage. 1.000,-</p>
+                    <p>‘C’est le printemps’ 2018. Domaine Dard & Ribo, François Ribo & René-Jean Dard. Crozes-Hermitage. 1.000,-</p>
+                    <p>‘Les Rouges des Baties’ 2013. Domaine Dard & Ribo, François Ribo & René-Jean Dard. Crozes-Hermitage. 1.000,-</p>
+                    <p>‘Les Rouges des Baties’ 2014. Domaine Dard & Ribo, François Ribo & René-Jean Dard. Crozes-Hermitage. 1.000,-</p>
+                    <p>‘Les Rouges des Baties’ 2015. Domaine Dard & Ribo, François Ribo & René-Jean Dard. Crozes-Hermitage. 1.000,-</p>
+                    <h4>Cornas</h4>
+                    <p>‘Les Grands Mûriers’ 2015. Ferration Père & Fils. Cornas. 1.750,-</p>
+                    <h4>Châteauneuf-du-Pape</h4>
+                    <p>‘Châteauneuf-du-Pape’ 2005. Domaine de Marcoux, Catherine og Sofie Armenier. Châteauneuf-du-Pape. 2.600,-</p>
+                    <p>‘Châteauneuf-du-Pape’ 2004. Chateau Rayas, Emmanuel Reynaud. Châteauneuf-duPape. 4.500,-</p>
+                    <p>Réserve des Célestins’ 2001 MAGNUM. Domaine Henri Bonneau, Jaqueline og Marcel Bonneau. Châteauneuf-du-Pape. 7.500,-</p>
+                    <p>‘Réserve des Célestins’ 2000. Domaine Henri Bonneau, Jaqueline og Marcel Bonneau. Châteauneuf-du-Pape. 4.000,-</p>
+                    <p>‘Réserve des Célestins’ 2001. Domaine Henri Bonneau, Jaqueline og Marcel Bonneau. Châteauneuf-du-Pape. 4.000,-</p>
+                    <p>‘Cuvée Spéciale’ 1998. Domaine Henri Bonneau, Jaqueline og Marcel Bonneau. Châteauneuf-du-Pape. 5.000,-</p>
+                    <p>‘Le Vieux Donjon’ 2005 MAGNUM. Michel Lucien. Châteauneuf-du-Pape. 5.000,-</p>
+                    <p>‘Cuvée Centenaire’ 2005. Les Cailloux, Lucien & André Brunel. Châteauneuf-du-Pape. 2.300,-</p>
+                    <h4>Ardèche</h4>
+                    <p>‘Syrah’ 2016. Domaine Romaneaux-Destezet, Hervé Souhaut. Vin de France. 750,-</p>
+                    <p>‘Larmande’ 2013. Le Mazel, Gérald & Jocelyne Oustric . Vin de France. 750,-</p>
+                    <p>‘Briand’ 2013. Le Mazel, Gérald & Jocelyne Oustric . Vin de France. 750,-</p>
+                    <p>‘Planet’ 2013. Le Mazel, Gérald & Jocelyne Oustric . Vin de France. 750,-</p>
+                    <p>’L’Audacieuse’ 2020. Château de la Selve. 600,-</p>
+                    <h4>Côtes du Rhône</h4>
+                    <p>‘La Sagesse’ 2014. Domaine Gramenon, Michèle Aubéry. Côtes du Rhône. 850,-</p>
+                    <h3>Languedoc-Roussillon</h3>
+                    <h4>Faugères</h4>
+                    <p>‘Jadis’ 2002. Domaine Leon Barral, Didier Barral. Faugères. 1.250,-</p>
+                    <h3>Bordeaux</h3>
+                    <h4>Medoc</h4>
+                    <p>‘Château Sociando-Mallet’ 2006. Château Sociando-Mallet, Jean Gautreau. Haut-Médoc. 1.600,-</p>
+                    <p>‘Château D’Armailhac, 5. Cru Classé’ 2009. Baron Philippe de Rothschild. Pauillac. 2.300,-</p>
+                    <p>‘Château Marguis de Terme, 4. Cru Classé’ 2000. Château Marguis de Terme. Margaux. 1.800,-</p>
+                    <p>‘Dauphin De Grand-Puy Ducasse’ 2015. Pauillac. Château Grand-Puy Ducasse. 1.200,-</p>
+                    <h4>Graves</h4>
+                    <p>‘Château Pape Clement, Grand Cru Classé’ 2010. Bernard Margrez. Graves. 3.500,-</p>
+                    <h4>Pomerol</h4>
+                    <p>‘Château Lafleur-Gazin’ 2009. Château Lafleur-Gazin, Madame Deflour-Borderie. Pomerol. 4.000,-</p>
+                    <h4>Côtes de Bourg</h4>
+                    <p>‘Foces de Vie’. 2016. Château Fougas. 800,-</p>
+                    <h3>Sud-Ouest</h3>
+                    <h4>Cahors</h4>
+                    <p>‘La Fage’ 2011. Cosse & Maisonneuve. Cahors. 850,-</p>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Italyrw">
+                <ul class="foodndrinks">
+                    <h3>Trentino</h3>
+                    <h4>Alba</h4>
+                    <p>‘Sgarzon’ 2016. Foradori, Elisabetha Foradori. Vigneti delle Dolomiti. 850,-</p>
+                    <h3>Piemonte</h3>
+                    <h4>Langhe</h4>
+                    <p>‘Perbacco’ 2017. Vietti, Luca Currado & Mario Cordero. Langhe. 850,-</p>
+                    <p>‘Costa Russi’ 2000. Gaja, Luca Currado & Mario Cordero. Langhe. 5.000,-</p>
+                    <p>‘Sorì San Lorenzo’ 2000. Gaja, Luca Currado & Mario Cordero. Langhe. 5.000,-</p>
+                    <p>‘Sori Tildìn’ 2000. Gaja, Luca Currado & Mario Cordero. Langhe. 5.000,-</p>
+                    <h4>Alba</h4>
+                    <p>‘Barbera d’Alba’ 2017. Vietti, Luca Currado & Mario Cordero. Vigna Scarrone. 850,-</p>
+                    <p>‘Barolo’ 2017. Scarzello 1.100,-</p>
+                    <p>‘Barolo’ 2016. Figli Luigi Oddero. 1.000,-</p>
+                    <p>‘Achille’ 2017. Case Corini 1.000,-</p>
+                    <p>‘Achille’ 2018. Case Corini 1.000,-</p>
+                    <h3>Toscana</h3>
+                    <h4>Livorno</h4>
+                    <p>‘Ornellaia’ 2000. Tenuta dell’Ornellaia. Bolgheri 3.100,-</p>
+                    <h4>Casalferro</h4>
+                    <p>‘Casalferro’ 2010. Castello di Brolio, Barone Ricasoli. Casalferro. 1.900,-</p>
+                    <h4>Montalcino</h4>
+                    <p>‘Fornace’ 2012. Le Ragnaie, Riccardo Campinoti. Brunello di Montalcino. 2.000,-</p>
+                    <p>‘Brunello di Montalcino’ 2010. Val di Suga. Brunello di Montalcino. 1.700,-</p>
+                </ul>
+            </div>
+            <div class="tab-contents" id="slovakiarw">
+                <ul class="foodndrinks">
+                    <h4>Ružová</h4>
+                    <p>‘Frankovka’ 2017. Vino Magula, Vladimir Magula. Ružová. 850,-</p>
+                    <h3>Sturovo</h3>
+                    <p>‘Partisan Cru’ 2015. Slobodne Vinarstvo. Sturovo. 750,-</p>
+                </ul>
+            </div>
+    </details>
+    
+    <details class="menudropdown3" id="menudropdown4"><summary> Dessertvin</summary>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Germanydw')">Tyskland</p>
+            <p class="tab-links" onclick="opentab('Francedw')">Frankrig</p>
+    
+            </div>
+    
+    
+            <div class="tab-contents active-tab" id="Germanydw">
+                <ul class="foodndrinks">
+                    <h3>Rheinhessen</h3>
+                    <p>‘PIUS‘ 2019. Beerenauslese. Weingut Keller, Klaus-Peter Keller. Rheinhessen. 1.000,-</p>
+                    <p>‘Huxelrebe Auslese’ 2019. Weingut Steinmühle. 600,-</p>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Francedw">
+                <ul class="foodndrinks">
+                    <h3>Loire</h3>
+                    <h4>Juranҫon</h4>
+                    <p>‘Les Grains Des Copains’ 2020. Jean-Marc Crussaute. Camin Larredya. 900,-</p>
+                </ul>
+            </div>
+    </details>
+
+
+
+
+
+<!--vinkort slut-->
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+ </script> 
+ <script src="javascript.js"></script>    
+</html>
